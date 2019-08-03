@@ -1,5 +1,9 @@
 package com.neuedu.base;
 
+import com.sun.org.apache.regexp.internal.RE;
+
+import java.awt.*;
+
 public  abstract class BaseSprite {
     private int x;
     private int y;
@@ -27,4 +31,9 @@ public  abstract class BaseSprite {
     public void setY(int y) {
         this.y = y;
     }
+    public Rectangle getRectange(){
+        return null;
+    }
+
+    public abstract void move();
 }
